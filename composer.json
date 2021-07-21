@@ -17,6 +17,7 @@
         "laravel/tinker": "^2.6",
         "laravel/ui": "^3.3",
         "mll-lab/graphql-php-scalars": "^4.1",
+        "mll-lab/laravel-graphql-playground": "^2.5",
         "nuwave/lighthouse": "^5.15",
         "predis/predis": "^1.1"
     },
