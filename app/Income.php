@@ -19,10 +19,10 @@ class Income extends Model
     ];
 
     protected $casts = [
-        'id' => 'Int',
-        'user_id' => 'Int',
-        'category_id' => 'Int',
-        'account_id' => 'Int'
+        'id' => 'integer',
+        'user_id' => 'integer',
+        'category_id' => 'integer',
+        'account_id' => 'integer'
     ];
 
     protected $dates = [

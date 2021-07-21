@@ -20,10 +20,10 @@ class Expense extends Model
     ];
 
     protected $casts = [
-        'id' => 'Int',
-        'user_id' => 'Int',
-        'category_id' => 'Int',
-        'payment_method_id' => 'Int'
+        'id' => 'integer',
+        'user_id' => 'integer',
+        'category_id' => 'integer',
+        'payment_method_id' => 'integer'
     ];
 
     protected $dates = [

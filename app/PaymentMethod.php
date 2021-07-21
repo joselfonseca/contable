@@ -13,8 +13,8 @@ class PaymentMethod extends Model
     protected $fillable = ['user_id', 'name'];
 
     protected $casts = [
-        'id' => 'Int',
-        'user_id' => 'Int'
+        'id' => 'integert',
+        'user_id' => 'integer'
     ];
 
     public function user() : BelongsTo

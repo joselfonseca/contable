@@ -13,8 +13,8 @@ class Category extends Model
     protected $fillable = ['user_id', 'name'];
 
     protected $casts = [
-        'id' => 'Int',
-        'user_id' => 'Int'
+        'id' => 'integer',
+        'user_id' => 'integer'
     ];
 
     public function user() : BelongsTo
